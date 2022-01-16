@@ -161,7 +161,7 @@ public void subMenu() throws IOException {
   	
   	 File f=new File(finalfilename);
   
-       if(filename.equals(finalfilename))
+       if( f.delete())
        {
     	   f.delete();
   		 System.out.println("Your File is Deleted");
